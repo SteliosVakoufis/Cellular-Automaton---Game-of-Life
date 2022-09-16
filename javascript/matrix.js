@@ -7,7 +7,7 @@ class Matrix {
         // this.matrix = Array(this.res * this.res).fill(0);  
         this.matrixImage = createImage(this.res, this.res);
 
-        this.states = [color(0, 0, 175), color(0)];
+        this.states = [color(49), color("#ea5f1f")];
         
         this.pause = false;
 

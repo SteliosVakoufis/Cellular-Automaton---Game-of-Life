@@ -1,6 +1,6 @@
 let matrix;
 let resolution = 100;
-let iterationsPerSecond = 14;
+let iterationsPerSecond = 11;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-	background(175);
+	background(0);
 
 	matrix.run();
 	matrix.display();
