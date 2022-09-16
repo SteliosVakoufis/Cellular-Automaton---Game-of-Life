@@ -1,6 +1,6 @@
 function run_UI() {
     let midX = width / 2 - 116;
-    fill(100);
+    fill(0, 0, 0, 90);
     noStroke();
     rect(midX, 0, 235, 65);
     fill(255);
